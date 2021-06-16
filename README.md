@@ -1,13 +1,13 @@
-# 数据下载 
+# Data Download
+
 ```
-数据来源
+Data source:
 https://tianchi.aliyun.com/competition/entrance/231522/information
 
-下载数据集到data目录下面并解压
-
+Download the dataset to the data folder then unzip it.
 ```
 
-# 环境安装
+# Environment setup
 
 ```
 conda env create -f environment.yaml
@@ -17,11 +17,10 @@ conda activate DPACL4Rec
 pip install -r requirements.txt  -i http://mirrors.aliyun.com/pypi/simple/
 ```
 
-# 运行和评测
+# Running
+
 ```
-notebook执行和结果：
+Model training: run.ipynb
 
-模型训练 run.ipynb
-
-模型评测 evaluate.ipynb
+Model evaluation: evaluate.ipynb
 ```
